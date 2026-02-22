@@ -67,7 +67,7 @@ Smart contracts, hybrid on-chain/off-chain systems, and secure wallet authentica
 
 Medical marketplace connecting 500+ healthcare professionals with real-time job matching, messaging, and payments.
 
-- MERN stack with 30+ production APIs handling 15k+ monthly requests
+- MERN stack with 30+ production APIs handling 5k+ monthly requests
 - Modular backend architecture enabling independent service deployment
 - 85% user satisfaction with 2,000+ job matches processed
 - Stripe integration with automated subscription management
@@ -129,9 +129,9 @@ Modernized supplier management platform across Laravel/Vue stack maintaining 100
 National University of Modern Languages (NUML) | 2021 – 2025
 
 **Certifications**  
-AI Agents Fundamentals – Hugging Face  
-Machine Learning with Python – IBM  
-Python – Kaggle
+[![AI Agents Fundamentals](https://img.shields.io/badge/AI_Agents_Fundamentals-Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/hasancoded/2026-02-06.png)  
+[![Machine Learning with Python](https://img.shields.io/badge/Machine_Learning_with_Python-IBM-054ADA?style=flat&logo=ibm&logoColor=white)](https://courses.cognitiveclass.ai/certificates/9a2092ac592e42008bea8624c693a976)  
+[![Python](https://img.shields.io/badge/Python-Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/learn/certification/hassanmubarak/python)
 
 ## Let's Connect
 
