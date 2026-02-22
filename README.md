@@ -1,175 +1,144 @@
 # Hassan Mubarak
 
-**Full-Stack SaaS Engineer | Production AI Systems | Scalable Backend Architecture**
+**Full-Stack SaaS Engineer | Building Production AI & Backend Systems**
 
-I build and ship production SaaS platforms serving real users with real business impact. My work spans end-to-end system ownership—from architecting scalable APIs and AI-powered workflows to deploying secure, monitored infrastructure. Recent systems include a medical marketplace serving 500+ healthcare professionals, AI meeting assistants with automated insights, and distributed storage with ML-based forecasting.
+I build and ship scalable SaaS platforms, AI-powered systems, and backend infrastructure that serve real users. Currently based in Islamabad, Pakistan, working with global teams on production systems across healthcare, AI automation, and distributed architectures.
 
----
+## What I Build
 
-## Core Engineering Domains
+**Production SaaS Platforms**  
+End-to-end ownership of scalable applications with secure APIs, real-time messaging, payment integration, and CI/CD automation.
 
-### Full-Stack SaaS Systems
+**AI-Powered Systems**  
+Production-ready AI integrations using RAG pipelines, LLM orchestration, and provider-agnostic architectures with comprehensive test coverage.
 
-I design, build, and deploy complete SaaS products from architecture to production. This includes API design, authentication systems, payment integration, real-time messaging, and CI/CD optimization.
+**Backend & Distributed Architecture**  
+Microservices, RBAC/JWT security, ML-based forecasting, containerized deployments, and scalable database design.
 
-**Recent Work:**
-- Architected and shipped Doconnect, a medical marketplace SaaS with 30+ production APIs handling 15k+ monthly requests
-- Delivered modular backend enabling independent deployment of auth, messaging, and job matching services
-- Integrated Stripe payment processing with webhook automation for subscription management
-- Built real-time workflows using Socket.IO serving 500+ healthcare professionals across 6 specialties
-- Achieved 85% user satisfaction and processed 2,000+ job matches
-- Reduced deployment time 40% through automated CI/CD pipelines and monitoring infrastructure
-- Implemented JWT/RBAC authentication with six-layer security middleware protecting sensitive medical data
+**Blockchain Infrastructure**  
+Smart contracts, hybrid on-chain/off-chain systems, and secure wallet authentication for production environments.
 
-### AI Systems & Applied LLM Engineering
-
-I integrate AI into production systems with a focus on reliability, architecture, and measurable outcomes. This includes RAG pipelines, provider-agnostic AI services, and searchable knowledge bases.
-
-**Recent Work:**
-- Built AI Meeting Copilot, a production SaaS converting meeting recordings into structured insights
-- Designed provider-agnostic architecture supporting OpenAI and Google Gemini with seamless switching
-- Achieved 100% test coverage (36 comprehensive tests) using Jest and Supertest
-- Implemented searchable knowledge base from meeting insights with PostgreSQL and Prisma ORM
-- Deployed via Docker with production-ready JWT authentication and Zod validation
-- Architected three-tier architecture with middleware-based auth and service layer separation
-
-### Backend & Distributed Architecture
-
-I build scalable backend systems with attention to security, performance, and operational reliability. This includes microservices, distributed storage, ML forecasting, and containerized deployments.
-
-**Recent Work:**
-- Designed CloudFileSystem, a distributed storage platform with ML-based load prediction
-- Implemented Random Forest model forecasting system load 30 minutes ahead for proactive scaling
-- Secured microservices with JWT/RBAC authentication across 5 RESTful endpoints
-- Achieved comprehensive reliability with 25+ JUnit tests covering auth, sync, and load balancing
-- Built containerized architecture using Docker Compose orchestrating MySQL, file nodes, and ML service
-- Delivered production-grade monitoring and fault tolerance across distributed nodes
-
-### Blockchain Infrastructure
-
-I develop blockchain-integrated backend services and smart contract systems for production environments. Focus on secure wallet authentication, token management, and hybrid on-chain/off-chain architecture.
-
-**Selected Work:**
-- Built RewardHub with hybrid blockchain-database architecture integrating Ethereum smart contracts and MongoDB
-- Implemented MetaMask wallet integration using ethers.js with signature-based authentication
-- Developed custom ERC20 token contracts with OpenZeppelin for achievement-based token minting and burning
-- Secured 40+ RESTful API endpoints with JWT/RBAC authorization across Admin, Faculty, and Student roles
-
----
-
-## Selected Production Projects
-
-### Doconnect | Medical Marketplace SaaS
-**Live Production:** https://doconnect.life
-
-Medical marketplace connecting healthcare professionals with real-time job matching, messaging, and payment processing.
-
-**Stack:** MERN, Stripe, Socket.IO, JWT, Cloudinary, MongoDB Atlas
-
-**Architecture:**
-- Modular MVC with independent services for auth, messaging, and job matching
-- Real-time WebSocket communication with Socket.IO
-- Centralized error handling and rate limiting (100 req/15min)
-- Repository pattern for data access with comprehensive API documentation
-
-**Impact:**
-- Serving 500+ healthcare professionals across 6 specialties
-- Processed 2,000+ job matches with 85% user satisfaction
-- Handling 15k+ monthly API requests with production monitoring
-
----
-
-### AI Meeting Copilot | AI-Powered SaaS
-**GitHub:** https://github.com/hasancoded/ai-meeting-copilot
-
-Production SaaS converting meeting recordings into transcripts, summaries, and actionable insights.
-
-**Stack:** TypeScript, Node.js, React 19, PostgreSQL, OpenAI API, Google Gemini, Docker
-
-**Architecture:**
-- Provider-agnostic AI architecture enabling plug-and-play AI services
-- Three-tier architecture with middleware-based authentication
-- Service layer separation for testability
-- Prisma ORM for type-safe database access
-
-**Impact:**
-- 100% test coverage across 36 comprehensive tests
-- Production-ready deployment with Docker containerization
-- Searchable knowledge base from structured meeting insights
-
----
-
-### CloudFileSystem | Distributed Storage Platform
-**GitHub:** https://github.com/hasancoded/CloudFileSystem
-
-Distributed file storage platform with AI-powered predictive scaling and multi-node replication.
-
-**Stack:** Java, Spring Boot 3.2, React 19, Python, Flask, MySQL, Docker
-
-**Architecture:**
-- Microservices-inspired architecture with distributed storage nodes
-- JWT authentication middleware with RBAC
-- ML prediction service integration (Random Forest forecasting)
-- Real-time Server-Sent Events for activity streaming
-
-**Impact:**
-- Predictive load forecasting 30 minutes ahead for auto-scaling
-- 25+ JUnit tests ensuring system reliability
-- Containerized deployment orchestrating MySQL, file nodes, and ML service
-
----
-
-## Professional Experience
-
-### Software Engineer | Geero Management
-**Jul 2025 – Jan 2026 | Islamabad, Pakistan**
-
-- Owned end-to-end development of Doconnect medical marketplace serving healthcare professionals with 30+ production APIs handling 15k+ monthly requests
-- Improved deployment velocity 40% by implementing automated CI/CD pipelines and monitoring
-- Collaborated with product and design teams across 3-month development cycle delivering on schedule
-- Delivered JWT/RBAC authentication system with six-layer security middleware protecting sensitive medical data
-
-### Software Developer | Bestower Labs
-**Jan 2025 – Jun 2025 | Remote**
-
-- Built blockchain-integrated backend services and full-stack applications deployed for client production use
-- Reduced defect rate 40% through automated testing frameworks and engineering documentation
-- Shipped scalable React/Next.js interfaces driving measurable improvements in user engagement
-
-### Software Developer (Contract) | Cnext International Pvt Ltd
-**Dec 2025 | Islamabad, Pakistan**
-
-- Modernized supplier management platform across Laravel/Vue stack maintaining zero breaking changes
-- Refactored API architecture achieving 100% backward compatibility across production systems
-
----
-
-## Technical Stack
+## Tech Stack
 
 **Frontend**  
-React, Next.js, Vue, TypeScript, JavaScript, Tailwind CSS
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat&logo=vue.js&logoColor=4FC08D)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
 **Backend**  
-Node.js, Express, Spring Boot, Flask, Laravel, RESTful APIs, Microservices
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat&logo=express&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 
-**AI Systems**  
-OpenAI API, LangChain, RAG Systems, Google Gemini, Hugging Face
-
-**DevOps**  
-Docker, CI/CD, GitHub Actions, AWS, Railway
+**AI & ML**  
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat&logo=chainlink&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
 
 **Databases**  
-PostgreSQL, MongoDB, MySQL, Prisma ORM
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=flat&logo=mysql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
+
+**DevOps & Cloud**  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=railway&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 **Blockchain**  
-Solidity, Ethereum, Smart Contracts, ethers.js, Hardhat
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
+![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=flat&logo=web3.js&logoColor=white)
+
+## Selected Production Work
+
+### Doconnect | Medical Marketplace SaaS
+**Live:** https://doconnect.life
+
+Medical marketplace connecting 500+ healthcare professionals with real-time job matching, messaging, and payments.
+
+- MERN stack with 30+ production APIs handling 15k+ monthly requests
+- Modular backend architecture enabling independent service deployment
+- 85% user satisfaction with 2,000+ job matches processed
+- Stripe integration with automated subscription management
+- 40% deployment time reduction through CI/CD optimization
 
 ---
 
-## What I Am Building
+### AI Meeting Copilot | AI SaaS Platform
+**GitHub:** https://github.com/hasancoded/ai-meeting-copilot
 
-I focus on production SaaS platforms, AI-integrated systems, and scalable backend infrastructure. Currently building and shipping systems that serve real users with measurable business impact.
+Production SaaS converting meeting recordings into structured insights with automated summaries and action items.
 
-Open to full-stack, AI engineering, and backend roles at companies scaling SaaS products, integrating AI into production, or building distributed systems.
+- Provider-agnostic architecture supporting OpenAI and Google Gemini
+- 100% test coverage across 36 comprehensive tests
+- Docker deployment with PostgreSQL and Prisma ORM
+- Searchable knowledge base from meeting insights
+- Production-ready JWT authentication
 
-**Contact:** hassanmubarak007@gmail.com | [LinkedIn](https://linkedin.com/in/iamhassanmubarak)
+---
+
+### CloudFileSystem | Distributed Storage
+**GitHub:** https://github.com/hasancoded/CloudFileSystem
+
+Distributed file storage with ML-powered predictive scaling and multi-node replication.
+
+- Java Spring Boot backend with React frontend
+- Random Forest forecasting predicting load 30 minutes ahead
+- JWT/RBAC security across microservices
+- 25+ JUnit tests ensuring reliability
+- Docker Compose orchestration for MySQL, file nodes, and ML service
+
+---
+
+### RewardHub | Web3 Platform
+**GitHub:** https://github.com/hasancoded/RewardHub
+
+Blockchain-integrated platform enabling token-based achievement rewards using ERC20 on Ethereum.
+
+- Hybrid blockchain-database architecture with MongoDB
+- MetaMask wallet integration with signature-based auth
+- Custom ERC20 contracts with OpenZeppelin
+- 40+ RESTful endpoints with JWT/RBAC authorization
+- Vue.js 3 frontend with Pinia state management
+
+## Recent Impact
+
+**Geero Management - Software Engineer** *(Jul 2025 – Jan 2026)*  
+Owned end-to-end development of medical marketplace serving healthcare professionals with 30+ production APIs handling 15k+ monthly requests. Reduced deployment time 40% through automated CI/CD pipelines.
+
+**Bestower Labs - Software Developer** *(Jan 2025 – Jun 2025)*  
+Built blockchain-integrated backend services and full-stack applications deployed for client production use. Reduced defect rate 40% through automated testing frameworks.
+
+**Cnext International - Software Developer (Contract)** *(Dec 2025)*  
+Modernized supplier management platform across Laravel/Vue stack maintaining 100% backward compatibility.
+
+## Education & Certifications
+
+**Bachelor of Computer Science**  
+National University of Modern Languages (NUML) | 2021 – 2025
+
+**Certifications**  
+AI Agents Fundamentals – Hugging Face  
+Machine Learning with Python – IBM  
+Python – Kaggle
+
+## Let's Connect
+
+Building production SaaS platforms, AI-integrated systems, and scalable backend infrastructure. Open to full-stack, AI engineering, and backend roles at companies scaling products or integrating AI into production.
+
+[![Email](https://img.shields.io/badge/Email-hassanmubarak007%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:hassanmubarak007@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Hassan_Mubarak-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/iamhassanmubarak)
+[![GitHub](https://img.shields.io/badge/GitHub-hasancoded-181717?style=flat&logo=github&logoColor=white)](https://github.com/hasancoded)
+
+**📍 Location:** Islamabad, Pakistan | Open to Remote
